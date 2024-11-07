@@ -1,0 +1,5 @@
+/* This task will determine the behaviour when scrolling on html */
+
+html {
+    scroll-behavior: smooth;
+}
