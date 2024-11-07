@@ -1,4 +1,4 @@
-/* setting line height in root and body */
+/* setting text transform custom property */
 
 html {
     scroll-behavior: smooth;
@@ -6,34 +6,31 @@ html {
 }
 
 :root {
+	/* color prop */
 	--color-primary: #d73953;
 	--color-black: #090909;
 	--color-white: #ffffff;
 	--color-light-grey: #f3f3f3;
 	--color-dark-grey: #353535;
 	--text-color: var(--color-black);
-
+	/* font prop */
 	--font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; 
 	--font-family-title: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif; 
-
 	--font-size-small: 1.2rem;
 	--font-size-medium: 1.6rem;
 	--font-size-large: 1.8rem;
 	--font-size-x-large: 2.3rem;
 	--font-size-xx-large: 4.8rem;
-
 	--font-weight-regular: 400;
 	--font-weight-bold: 700;
-
+	/* line prop */
 	--line-height-small: 1.2;
 	--line-height-base: 1.5;
 	--line-height-big: 1.8;
-
+	/* align and transform prop */
 	--section-header-align: center;
 	--section-tagline-transform: uppercase;
-	
 }
-	
 
 body {
 	color: var(--text-color);
@@ -71,6 +68,5 @@ a {
 	color: var(--color-primary);
 	font-family: var(--font-family-title);
 	font-weight: var(--font-weight-bold);
-	text-transform: var(--section-header-align);
-	
+	text-transform: var(--section-header-align);	
 }
