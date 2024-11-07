@@ -1,4 +1,4 @@
-/* setting global property on a root element */
+/* setting font property to some element */
 
 html {
     scroll-behavior: smooth;
@@ -20,31 +20,31 @@ html {
 
 body {
 	color: var(--text-color);
-	font: var(--font-family-base);
+	font-family: var(--font-family-base);
 }
 
 h1 {
-	font: var(--font-family-title);
+	font-family: var(--font-family-title);
 }
 
 h2 {
-	font: var(--font-family-title);
+	font-family: var(--font-family-title);
 }
 
 h3 {
-	font: var(--font-family-title);
+	font-family: var(--font-family-title);
 }
 
 h4 {
-	font: var(--font-family-title);
+	font-family: var(--font-family-title);
 }
 
 h5 {
-	font: var(--font-family-title);
+	font-family: var(--font-family-title);
 }
 
 h6 {
-	font: var(--font-family-title);
+	font-family: var(--font-family-title);
 }
 
 
