@@ -28,10 +28,9 @@ html {
 	--line-height-small: 1.2;
 	--line-height-base: 1.5;
 	--line-height-big: 1.8;
+	--section-header-align: center;
 	
 }
-/* setting custom properties not targeting root */
---section-header-align: center;
 	
 
 body {
