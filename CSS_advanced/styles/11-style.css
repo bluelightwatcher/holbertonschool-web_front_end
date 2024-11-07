@@ -27,10 +27,13 @@ html {
 	--line-height-small: 1.2;
 	--line-height-base: 1.5;
 	--line-height-big: 1.8;
-	/* align and transform prop */
+	/* align prop */
 	--section-header-align: center;
-	--section-tagline-transform: uppercase;
 }
+
+/* adding transform prop outside of root */
+
+	--section-tagline-transform: uppercase;
 
 body {
 	color: var(--text-color);
