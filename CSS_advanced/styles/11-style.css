@@ -29,11 +29,9 @@ html {
 	--line-height-big: 1.8;
 	/* align prop */
 	--section-header-align: center;
-}
-
-/* adding transform prop outside of root */
-
+	/* transform prop */
 	--section-tagline-transform: uppercase;
+}
 
 body {
 	color: var(--text-color);
@@ -71,5 +69,5 @@ a {
 	color: var(--color-primary);
 	font-family: var(--font-family-title);
 	font-weight: var(--font-weight-bold);
-	text-transform: var(--section-header-align);	
+	text-transform: var(--section-tagline-transform);	
 }
