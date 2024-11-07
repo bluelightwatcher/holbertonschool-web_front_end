@@ -13,7 +13,7 @@ html {
 	--text-color : var(--color-black);
 
 body {
-	color : var(--text-color)
+	color : var(--text-color);
 }
 
 a {
