@@ -115,15 +115,20 @@ a:active {
 	margin: 0;
 }
 
-.card-services .card-title a:hover {
+.card-services a {
+	display: block;
+	padding: 2rem;
+	background-color: var(--color-light-grey);
+}
+
+
+.card-services a:hover {
 	color: var(--color-white);
-	background-color: var(--color-primary);
+	background-color: var(--color-white);
 	text-decoration: none;
 }
 
-.navbar-menu {
-	float: right;
-}
+
 .navbar-menu {
 	float: right;
 }
