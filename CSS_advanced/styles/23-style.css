@@ -1,6 +1,6 @@
 /* adding style to footer and svg children*/ 
 
-@import url ('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css')
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css')
 
 *,
 *::before,
@@ -170,13 +170,13 @@ a:active {
 	color: var(--color-primary);
 	font-family: var(--font-family-title);
 	font-weight: var(--font-weight-bold);
-	text-transform: var(--section-header-align);
+	text-align: var(--section-header-align);
 	margin: var(--section-tagline-margin);
 }
 
 ul.row {
 	margin: 0;
-	padding: none;
+	padding: 0;
 	list-style: none;
 }
 
@@ -210,6 +210,8 @@ ul.row {
 	margin-right: auto;
 }
 
+/* footer properties */
+
 .footer {
 	padding: var(--footer-padding);
 }
@@ -231,3 +233,4 @@ ul.row {
 .social-link svg {
 	fill: var(--text-color);
 }
+
